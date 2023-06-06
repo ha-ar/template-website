@@ -1,15 +1,15 @@
 // next
-import Head from 'next/head';
+import Head from 'next/head'
 // @mui
-import { Divider } from '@mui/material';
+import { Divider } from '@mui/material'
 // layouts
-import MainLayout from '../layouts/main';
+import MainLayout from '../layouts/main'
 // sections
-import { AboutHero, AboutWhat, AboutTeam, AboutVision, AboutTestimonials } from '../sections/about';
+import { AboutHero, AboutWhat, AboutTeam, AboutVision, AboutTestimonials } from '../sections/about'
 
 // ----------------------------------------------------------------------
 
-AboutPage.getLayout = (page) => <MainLayout>{page}</MainLayout>;
+AboutPage.getLayout = page => <MainLayout>{page}</MainLayout>
 
 // ----------------------------------------------------------------------
 
@@ -32,5 +32,5 @@ export default function AboutPage() {
 
       <AboutTestimonials />
     </>
-  );
+  )
 }

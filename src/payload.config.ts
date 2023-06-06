@@ -17,7 +17,7 @@ import { Footer } from './globals/Footer'
 import { Header } from './globals/Header'
 
 const generateTitle: GenerateTitle = () => {
-  return 'My Website'
+  return 'AlgoRepublic 2.0'
 }
 
 const mockModulePath = path.resolve(__dirname, './emptyModuleMock.js')
