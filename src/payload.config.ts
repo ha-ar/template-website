@@ -59,7 +59,14 @@ export default buildConfig({
   plugins: [
     FormBuilder({
       fields: {
-        payment: true,
+        // textarea: true,
+        // wysiwyg: true,
+        // number: true,
+        // checkbox: true,
+        // radio: true,
+        // select: true,
+        // upload: true,
+        // payment: true,
       },
     }),
     nestedDocs({
